@@ -21,11 +21,11 @@ variable "enable_dns_support" {
   default     = true
 }
 
-variable "enable_classiclink" {
-  description = "Should be true to enable ClassicLink for the VPC. Only valid in regions and accounts that support EC2 Classic."
-  type        = bool
-  default     = false
-}
+# variable "enable_classiclink" {
+#   description = "Should be true to enable ClassicLink for the VPC. Only valid in regions and accounts that support EC2 Classic."
+#   type        = bool
+#   default     = false
+# }
 
 variable "tags" {
   description = "A map of tags to add to all resources"
